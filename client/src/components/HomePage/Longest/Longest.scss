@@ -1,0 +1,22 @@
+.longest-data-wrapper{
+    background-color:#FCECEC;
+    width: 100%;
+    margin-left: 15%;
+    padding: 20px 0px;
+    border-radius:10px;
+    border:2px solid silver;
+    
+    .ride-title,.run-title{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .run-title{
+        margin-top: 35px;
+    }
+    .ride-data,.run-data{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,9 @@
+export const HEADER_TITLE = "Activity tracker";
+export const ACTIVITY_TYPES = ["Ride", "Run"];
+export const EMPTY_LIST_MESSAGE = "List is empty";
+export const SELECT_ACTIVITY_TYPE_TITLE = "Select activity type";
+export const LONGEST_RIDE = "Longest ride";
+export const LONGEST_RUN = "Longest run";
+export const TOTAL_RIDE_DISTANCE_TITLE = "Total ride distance:";
+export const TOTAL_RUN_DISTANCE_TITLE = "Total run distance:";
+export const ADD_NEW_ACTIVITY = "Add new activity:";

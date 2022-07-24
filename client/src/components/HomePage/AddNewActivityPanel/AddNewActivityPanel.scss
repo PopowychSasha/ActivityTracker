@@ -1,0 +1,90 @@
+.add-new-activity-panel {
+  box-sizing: border-box;
+  height: 75px;
+  width: 70%;
+  background-color: #ebfef2;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 2px solid silver;
+  color: #3c444d;
+  margin-top: 15px;
+  .form-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: inherit;
+    input {
+      display: block;
+      height: 30px;
+      width: 100px;
+      border-radius: 5px;
+      font-size: 17px;
+      padding-left: 10px;
+    }
+    .title {
+      font-size: 18px;
+    }
+    .time-error,
+    .distance-error {
+      font-size: 10px;
+      color: red;
+      text-align: start;
+      margin-left: 10px;
+    }
+    .select-type {
+      width: 250px;
+      height: 40px;
+      position: relative;
+      z-index: 1;
+      .select-type-title {
+        border: 1px solid silver;
+        font-size: 15px;
+        background-color: #ffffff;
+        cursor: pointer;
+        border:1px solid black;
+        border-radius:5px;
+        height: 40px;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        padding: 0px 10px;
+      }
+      .select-type-content {
+        border: 1px solid silver;
+        padding: 10px 0px 1px 0px;
+        background: #ffffff;
+        > div {
+          margin-bottom: 10px;
+          font-size: 20px;
+          text-align: center;
+          height: 30px;
+          cursor: pointer;
+          transition: 0.5s;
+        }
+        > div:hover {
+          background: #f0f0f0;
+          transition: 0.5s;
+        }
+      }
+    }
+    .submit-btn {
+      transition: 0.5s;
+      background-color: #49525d;
+      color: #ffffff;
+      border: 1px solid silver;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .submit-btn:hover {
+      transition: 0.5s;
+      background-color: #f2f0ee;
+      color: #49525d;
+      border: 2px solid #49525d;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.total-distance{
+    box-sizing:border-box;
+    background-color:#F1EBFD;
+    margin-left: 15%;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius:10px;
+    border:2px solid silver;
+    .ride-distance,.run-distance{
+        display: flex;
+        justify-content: space-between;
+        .title{
+            font-weight:600;
+        }
+    }
+}
